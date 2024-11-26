@@ -9,9 +9,10 @@
 # - Use a loop to print each element.
 
 def example_list_function():
-  example_list = ['element1', 'element2', 'element3']
+  example_list = ['Lions', 'Tigers', 'Bears']
   for element in example_list:
       print(element)
+  print('(Oh my...)')
 
 # Call the function and print each element
 example_list_function()

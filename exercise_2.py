@@ -4,8 +4,14 @@
 # Create a variable named meal and assign an empty string to it.
 # Use a for loop to iterate over the strings in foods and append each string to meal.
 
+foods = ('Chocolate Pudding', 'Grapes', 'Octopus Salad')
+
 def combine_foods():
     # your code here
+    meal = ''
+    for food in foods:
+        meal += food
+    return meal
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
